@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.afdroid.mi.prueba_menu">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Logic Learn"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.first.diana.mi.prueba_menu.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.first.diana.mi.prueba_menu.Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.first.diana.mi.prueba_menu.Register" />
+        <activity android:name="com.first.diana.mi.prueba_menu.ProfileActivity" />
+        <activity
+            android:name="com.first.diana.mi.prueba_menu.SplashScreen"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.first.diana.mi.prueba_menu.PlayPuzzle" />
+        <activity android:name="com.first.diana.mi.prueba_menu.VideoIntroduction" />
+        <activity android:name="com.first.diana.mi.prueba_menu.JuegoAho" />
+        <activity android:name="com.first.diana.mi.prueba_menu.InsertWordAho" />
+        <activity android:name="com.first.diana.mi.prueba_menu.Ahorcado" />
+        <activity android:name="com.first.diana.mi.prueba_menu.ResultAho" />
+        <activity android:name="com.first.diana.mi.prueba_menu.TicTac" />
+        <activity android:name="com.first.diana.mi.prueba_menu.MachineTicTac" />
+        <activity android:name="com.first.diana.mi.prueba_menu.PersonTicTac" />
+        <activity android:name="com.first.diana.mi.prueba_menu.Quizz" />
+        <activity android:name="com.first.diana.mi.prueba_menu.Agenda" />
+        <activity android:name="com.first.diana.mi.prueba_menu.TemaIntroduction" />
+        <activity android:name="com.first.diana.mi.prueba_menu.OneTema" />
+        <activity android:name="com.first.diana.mi.prueba_menu.TwoTema" />
+        <activity android:name="com.first.diana.mi.prueba_menu.ThreeTema" />
+        <activity android:name="com.first.diana.mi.prueba_menu.VideoActivity" />
+        <activity android:name="com.first.diana.mi.prueba_menu.VideoAdapter" />
+        <activity android:name="com.first.diana.mi.prueba_menu.ImagenGallery"></activity>
+    </application>
+
+</manifest>

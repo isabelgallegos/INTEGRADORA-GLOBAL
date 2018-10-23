@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Prueba-menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="games">Juegos</string>
+    <string name="evaluation">Temas</string>
+    <string name="forum">Glosario</string>
+    <string name="help">Ayuda</string>
+    <string name="progrees">Actividades</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <string name="logic_learn">Logic Learn</string>
+    <string name="my_profile">Mi perfil</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="register">Registro</string>
+    <string name="sign_in">Iniciar Sesión</string>
+    <string name="password">Contraseña</string>
+    <string name="text">Play</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="cancel">Cancelar</string>
+    <string name="field_validation">Este campo no puede estar vacío</string>
+    <string name="filed_sign_up">Error al registrar usuario</string>
+    <string name="failed_register">Error al registrar el usuario</string>
+    <string name="faild_auth">Error al iniciar sesión</string>
+    <string name="sign_out_error">No fue posible cerrar sesión</string>
+
+
+    <string name="texto_boton_jugar">Jugar</string>
+    <string name="texto_boton_salir">Salir</string>
+    <string name="texto_boton_menu">Ir al Menú</string>
+    <string name="texto_auxiliar_icono">Icono ahorcado</string>
+    <string name="texto_titulo_insertar">Insertar palabra</string>
+    <string name="texto_subtitulo_insertar">Inserta la palabra que tendrá que adivinar el jugador:</string>
+    <string name="texto_pista_insertar">Palabra a adivinar</string>
+    <string name="texto_boton_insertar">Insertar</string>
+    <string name="title_activity_insercion">Inserción</string>
+    <string name="error_fatal_word">Introduce una palabra antes</string>
+    <string name="error_format_word">El formato de la palabra no es correcto</string>
+    <string name="title_activity_game">Juego</string>
+    <string name="resultado_ganar">¡ACERTASTE!</string>
+    <string name="resultado_perder">¡PERDISTE!</string>
+    <string name="texto_titulo_fallos">Fallos:</string>
+    <string name="texto_boton_volver">Volver</string>
+    <string name="texto_titulo_resultado">Resultado:</string>
+    <string name="texto_boton_nuevo_juego">Insertar nueva palabra</string>
+    <string name="title_activity_resultado">Resultado</string>
+    <string name="texto_titulo">El Androide Ahorcado</string>
+    <string name="texto_subtitulo">¡Introduce una palabra y haz que alguien juegue a adivinarla!</string>
+    <string name="texto_boton_palabra">Introducir Palabra</string>
+    <string name="intro">Trabajar con software orientado a objetos y bases de datos relacionales puede hacernos invertir mucho tiempo en los entornos actuales. Hibernate es una herramienta que realiza el mapping entre el mundo orientado a objetos de las aplicaciones y el mundo entidad-relación de las bases de datos en entornos Java. El término utilizado es ORM (object/relational mapping) y consiste en la técnica de realizar la transición de una representación de los datos de un modelo relacional a un modelo orientado a objetos y viceversa. Hibernate no solo realiza esta esta transformación sino que nos proporciona capacidades para la obtención y almacenamiento de datos de la base de datos que nos reducen el tiempo de desarrollo.</string>
+    <string name="one_to_many"><![CDATA[<one-to-many>]]></string>
+    <string name="onetomany"><![CDATA[<OneToMany>]]></string>
+    <string name="onemany"><![CDATA[<OneMany>]]></string>
+    <string name="hanged">Ahorcado</string>
+    <string name="schedule">Agenda</string>
+    <string name="progress">Progreso</string>
+    <string name="about">Acerca de ...</string>
+    <string name="tictac">TicTac</string>
+    <string name="activities">Actividades</string>
+    <string name="quiz">Quiz</string>
+    <string name="gallery">Galería</string>
+    <string name="numeric_systems">Sistemas Numéricos</string>
+    <string name="boolean_algebra">Algebra Booleana</string>
+    <string name="logic_think">Habilidades de Pensamiento Lógico</string>
+    <string name="puzzle">Puzzle</string>
+    <string name="introduction">Introducción</string>
+</resources>

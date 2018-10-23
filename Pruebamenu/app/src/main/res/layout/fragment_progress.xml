@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.first.diana.mi.prueba_menu.GamesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/lyt_third">
+
+
+            <ImageView
+                android:id="@+id/imv_quiz"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/quiz1" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:text="Quiz"
+                android:textAlignment="center"
+                android:textColor="@color/button_color_midnight_blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imvagen"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:background="@drawable/agenda"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:text="Galería"
+                android:textAlignment="center"
+                android:textColor="@color/button_color_midnight_blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/imv_video"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/videos" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:text="Videos"
+                android:textAlignment="center"
+                android:textColor="@color/button_color_midnight_blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

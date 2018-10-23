@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.first.diana.mi.prueba_menu.TemaIntroduction"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_p1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/imv_isa"
+        android:paddingLeft="20dp"
+        android:text="Introducción"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/tv_def1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/imv_isa"
+        android:paddingLeft="20dp"
+        android:text="La habilidad es la capacidad y disposición para algo y el pensamiento, por su parte, es el producto de la mente. La noción de habilidad del pensamiento está asociada a la capacidad de desarrollo de procesos mentales que permitan resolver distintas cuestiones."
+        android:layout_below="@id/tv_p1"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/introduccion"/>
+
+
+
+</LinearLayout>

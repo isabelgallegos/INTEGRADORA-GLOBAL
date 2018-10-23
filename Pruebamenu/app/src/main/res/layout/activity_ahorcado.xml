@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityGameAh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/button_color_wet_asphalt"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="none"
+    tools:context="com.first.diana.mi.prueba_menu.Ahorcado" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.29"
+        android:contentDescription="@string/texto_auxiliar_icono"
+        android:src="@drawable/ahorcado" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_titulo"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="8pt"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/texto_subtitulo"
+        android:textColor="#FFF"
+        android:textSize="6pt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/boton_palabra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="lanzarInsercion"
+        android:text="@string/texto_boton_palabra"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/boton_jugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="lanzarJuego"
+        android:background="@drawable/buttonstyle3"
+        android:text="@string/texto_boton_jugar"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/boton_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="salir"
+        android:background="@drawable/buttonstyle2"
+        android:textColor="#000"
+        android:text="@string/texto_boton_salir" />
+
+</LinearLayout>

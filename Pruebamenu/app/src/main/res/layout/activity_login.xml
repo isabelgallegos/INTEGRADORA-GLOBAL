@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.first.diana.mi.prueba_menu.Login"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/sign_in"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/txtEmailSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/txtPassSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/password"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/btnSignIn"
+        android:text="@string/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/holo_blue_light"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="@string/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/holo_blue_light"/>
+
+</LinearLayout>

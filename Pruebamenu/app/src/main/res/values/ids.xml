@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="videoView" type="id" />
+    <item name="imv_isa" type="id" />
+    <item name="lyt_sec" type="id" />
+    <item name="action_insertar" type="id" />
+    <item name="action_jugar" type="id" />
+    <item name="action_salir" type="id" />
+    <item name="imv_close" type="id" />
+    <item name="txv_title" type="id" />
+    <item name="txv_puntuacion" type="id" />
+    <item name="imv_quiz" type="id" />
+</resources>
